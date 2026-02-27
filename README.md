@@ -97,7 +97,7 @@ sudo apt install build-essential cmake git python3 python3-pip
 ### Clone & Build
 
 ```bash
-git clone https://github.com/yourusername/crossline.git
+git clone https://github.com/nnxlxde-stack/crossline.git
 cd crossline
 cmake --preset default
 cmake --build build
