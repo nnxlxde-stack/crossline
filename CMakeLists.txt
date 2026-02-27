@@ -5,4 +5,9 @@ project(crossline LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_C_STANDARD 23)
 
-add_executable(crossline core/main.cpp)
+add_subdirectory(core/user-interface)
+add_subdirectory(tests)
+
+add_executable(crossline 
+    core/main.cpp
+)
